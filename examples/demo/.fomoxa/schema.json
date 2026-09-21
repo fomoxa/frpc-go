@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "generator": "fomoxac 0.2.1",
+  "fingerprint": "sha256:b8f0e2543fc9c60d89329c4fa7f31e6f5a0e89600f61f31c1120c5907bfb0b29",
+  "fingerprint_u64": "0xB8F0E2543FC9C60D",
+  "models": {
+    "ChatHeard": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:3e613bac1dbb8aa95747b3d6ad7d9a753af387650870f66370608c7a90b9f893",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Line",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0xE037CA19",
+          "fingerprint": "sha256:e7f7ca08d16b1a00f808b415932c7b9f4d78b4edb971b9d588b41da9df5324ca",
+          "fingerprint_u64": "0xE7F7CA08D16B1A00",
+          "prefixes": [
+            "sha256:e7f7ca08d16b1a00f808b415932c7b9f4d78b4edb971b9d588b41da9df5324ca"
+          ],
+          "prefixes_u64": [
+            "0xE7F7CA08D16B1A00"
+          ],
+          "fields": [
+            {
+              "name": "Line",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "ChatOpen": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:c7d83538d91b72023d2b77786c74b066fc5de5ad27a50beb4d98178560c11af5",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Room",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0xEAEB5F14",
+          "fingerprint": "sha256:3d4af6b9c83e293bda2e98baab650b19b9e40a3fedb38dd5e75f0153e7c8acae",
+          "fingerprint_u64": "0x3D4AF6B9C83E293B",
+          "prefixes": [
+            "sha256:3d4af6b9c83e293bda2e98baab650b19b9e40a3fedb38dd5e75f0153e7c8acae"
+          ],
+          "prefixes_u64": [
+            "0x3D4AF6B9C83E293B"
+          ],
+          "fields": [
+            {
+              "name": "Room",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "ChatSaid": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:a145d739ca2870fa1a2a224f3dc7261a31b7e3e60b533b31c78fcdc65341f141",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Line",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0xACBEA203",
+          "fingerprint": "sha256:e1399a587a239b43b32cfd6aa5bd437754c290903c3a670e7cef70aaa63383f9",
+          "fingerprint_u64": "0xE1399A587A239B43",
+          "prefixes": [
+            "sha256:e1399a587a239b43b32cfd6aa5bd437754c290903c3a670e7cef70aaa63383f9"
+          ],
+          "prefixes_u64": [
+            "0xE1399A587A239B43"
+          ],
+          "fields": [
+            {
+              "name": "Line",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "CountItem": {
+      "source": "models/echo.go",
+      "fingerprint": "sha256:0a25fce1cb10e6ccd47d193c16b942d000058db1e8f30efaa4cb0e70678e0cdf",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Value",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x5FB691E2",
+          "fingerprint": "sha256:a3a551bbfcf90a6c4c485d1dc4aed65525dc983eb0e1013fad1b71b69fa68996",
+          "fingerprint_u64": "0xA3A551BBFCF90A6C",
+          "prefixes": [
+            "sha256:a3a551bbfcf90a6c4c485d1dc4aed65525dc983eb0e1013fad1b71b69fa68996"
+          ],
+          "prefixes_u64": [
+            "0xA3A551BBFCF90A6C"
+          ],
+          "fields": [
+            {
+              "name": "Value",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "CountRequest": {
+      "source": "models/echo.go",
+      "fingerprint": "sha256:e6507d7b64d33adae0106da9d0698a72e768b96a11e82a81b9fb067c9ca16fb5",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Count",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x188823FA",
+          "fingerprint": "sha256:12d24dcf758a97691a2e0bfce184b8dc0ef21a8e17a61878efb345ffaefdc671",
+          "fingerprint_u64": "0x12D24DCF758A9769",
+          "prefixes": [
+            "sha256:12d24dcf758a97691a2e0bfce184b8dc0ef21a8e17a61878efb345ffaefdc671"
+          ],
+          "prefixes_u64": [
+            "0x12D24DCF758A9769"
+          ],
+          "fields": [
+            {
+              "name": "Count",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "EchoRequest": {
+      "source": "models/echo.go",
+      "fingerprint": "sha256:867e1703f1c448e86cc6391efb284bc3663a2affb9e294d259b2b7eb0821a3b4",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Text",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x109F8C60",
+          "fingerprint": "sha256:d477f0362150cb3d54936df622045344bffd326620133145fe322aa183b05e15",
+          "fingerprint_u64": "0xD477F0362150CB3D",
+          "prefixes": [
+            "sha256:d477f0362150cb3d54936df622045344bffd326620133145fe322aa183b05e15"
+          ],
+          "prefixes_u64": [
+            "0xD477F0362150CB3D"
+          ],
+          "fields": [
+            {
+              "name": "Text",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "EchoResponse": {
+      "source": "models/echo.go",
+      "fingerprint": "sha256:53ae11c4d04c68e19287fdfcc825ebffa309e1dbf2bdf966b8b643d553dd7f69",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Text",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x96D79DED",
+          "fingerprint": "sha256:23368e8a5e0fca18ae512e3211b9d07a72688126005acf37265ad37b659f65c6",
+          "fingerprint_u64": "0x23368E8A5E0FCA18",
+          "prefixes": [
+            "sha256:23368e8a5e0fca18ae512e3211b9d07a72688126005acf37265ad37b659f65c6"
+          ],
+          "prefixes_u64": [
+            "0x23368E8A5E0FCA18"
+          ],
+          "fields": [
+            {
+              "name": "Text",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "FRpcCredit": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:4fa49bc6a748d5dfb6e3a1632b6fdf94773659f0f3ed5b9a4eec67889572f868",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Items",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x789A010F",
+          "fingerprint": "sha256:9f3d9aee476f42bdd8ea725b429837c5ebb3a5436604550c2a925ac1cfeb85f4",
+          "fingerprint_u64": "0x9F3D9AEE476F42BD",
+          "prefixes": [
+            "sha256:9f3d9aee476f42bdd8ea725b429837c5ebb3a5436604550c2a925ac1cfeb85f4"
+          ],
+          "prefixes_u64": [
+            "0x9F3D9AEE476F42BD"
+          ],
+          "fields": [
+            {
+              "name": "Items",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "FRpcCtx": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:95279604b295af5f595da3a40f2637b002022770bc6f1dafe1fc9884554b3569",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "DeadlineMs",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "TraceId",
+          "type": "bytes",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "SpanId",
+          "type": "bytes",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "Token",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "Tenant",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "IdempotencyKey",
+          "type": "bytes",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "InitialCredit",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x5AE3B9AC",
+          "fingerprint": "sha256:3b43f47205e0362dd2beda675e13a4f52cb4f67e036b6998517c698c4f9079c0",
+          "fingerprint_u64": "0x3B43F47205E0362D",
+          "prefixes": [
+            "sha256:8001ed8ec14681bb896e0e3622a87304581c5eabb17ee2eefab8b11edf6e49c8",
+            "sha256:0e639d9a7ba779ae8c6ecbd3eab9df46fa1c8777022f6f4dc1a9a310a786b8de",
+            "sha256:30dc5256c33f9bc2af8cc84f543ea11f505977a6b7286bc14494b78787c34775",
+            "sha256:2b280600965f971e436f160df5f87e47b9d426bfd8327021af4a3ff0e5d8fa61",
+            "sha256:98ab443d256795b2636eaf89dba8c44b8e5f92c931f0bd260b2a1b0c7f27e974",
+            "sha256:a35fe2811247558b80fef20d9cd2341f8b11f6c7b065da5d36e1b714357c573a",
+            "sha256:3b43f47205e0362dd2beda675e13a4f52cb4f67e036b6998517c698c4f9079c0"
+          ],
+          "prefixes_u64": [
+            "0x8001ED8EC14681BB",
+            "0x0E639D9A7BA779AE",
+            "0x30DC5256C33F9BC2",
+            "0x2B280600965F971E",
+            "0x98AB443D256795B2",
+            "0xA35FE2811247558B",
+            "0x3B43F47205E0362D"
+          ],
+          "fields": [
+            {
+              "name": "DeadlineMs",
+              "type": "u32"
+            },
+            {
+              "name": "TraceId",
+              "type": "bytes"
+            },
+            {
+              "name": "SpanId",
+              "type": "bytes"
+            },
+            {
+              "name": "Token",
+              "type": "string"
+            },
+            {
+              "name": "Tenant",
+              "type": "string"
+            },
+            {
+              "name": "IdempotencyKey",
+              "type": "bytes"
+            },
+            {
+              "name": "InitialCredit",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "FRpcError": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:2d983e2470f3522292020f8bcb70f3b2dfd752f32af58ce8c87c673800c8f495",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Code",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "Message",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0xBF94ECC4",
+          "fingerprint": "sha256:4a043b62fdc0e07d53f42ccb409dc3546203f648269e7c4ec534f4475e3ddd7a",
+          "fingerprint_u64": "0x4A043B62FDC0E07D",
+          "prefixes": [
+            "sha256:a58ea55f6a679084c0e4da8c467ebb0ffc2ef85cbe82fde073adfb832984c4a2",
+            "sha256:4a043b62fdc0e07d53f42ccb409dc3546203f648269e7c4ec534f4475e3ddd7a"
+          ],
+          "prefixes_u64": [
+            "0xA58EA55F6A679084",
+            "0x4A043B62FDC0E07D"
+          ],
+          "fields": [
+            {
+              "name": "Code",
+              "type": "u32"
+            },
+            {
+              "name": "Message",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "FRpcMethodInfo": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:0e3dddcafc83d4249f48ea0fe0bf37c38303cd24acd7c1194011abd8f73f2ffd",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "Shape",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "RequestId",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "CallerItemId",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "ReplyId",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "RetrySafety",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x6D10D388",
+          "fingerprint": "sha256:f0b7d74b8a72541b467a8909410f30874ade5e124cdee6f82d717211486fc2a7",
+          "fingerprint_u64": "0xF0B7D74B8A72541B",
+          "prefixes": [
+            "sha256:1cfcaacff8f74d16336a95496973c8b360492e0a44e866ecb924d5f1fb44bdf1",
+            "sha256:40160eb735b6818ada5d52d5b8a7189c245c3c220cff0981689d0d9fee59849b",
+            "sha256:9c5c415004a2f8c1c59ce2179d16bb9179abf86c0ca164c8f001051fecf3b886",
+            "sha256:577ad38c2371dc8714b5f63feb918947fcabaf8aaeb3063d10309dd6464aa2a2",
+            "sha256:76d63ba5a1d8aa4d4e5e4ac931d285a2c76d147b8d59426a002db655b93142e2",
+            "sha256:f0b7d74b8a72541b467a8909410f30874ade5e124cdee6f82d717211486fc2a7"
+          ],
+          "prefixes_u64": [
+            "0x1CFCAACFF8F74D16",
+            "0x40160EB735B6818A",
+            "0x9C5C415004A2F8C1",
+            "0x577AD38C2371DC87",
+            "0x76D63BA5A1D8AA4D",
+            "0xF0B7D74B8A72541B"
+          ],
+          "fields": [
+            {
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "name": "Shape",
+              "type": "u32"
+            },
+            {
+              "name": "RequestId",
+              "type": "u32"
+            },
+            {
+              "name": "CallerItemId",
+              "type": "u32"
+            },
+            {
+              "name": "ReplyId",
+              "type": "u32"
+            },
+            {
+              "name": "RetrySafety",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "FRpcReflectRequest": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:951c826e7ea8db6948280480a1a38ecfe41edd4b5065d5130c4b3da9c1d2782a",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [],
+      "messages": {
+        "rpc": {
+          "id": "0x9C0C80F3",
+          "fingerprint": "sha256:aaab56b8165c245bb6a314205af049d2bafa54983caf25caa8f0c7b8ccff8f71",
+          "fingerprint_u64": "0xAAAB56B8165C245B",
+          "prefixes": [],
+          "prefixes_u64": [],
+          "fields": []
+        }
+      }
+    },
+    "FRpcReflectResponse": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:15f4e8e3fcf0935d7b8098199626f1e0742cea5973f079b814f19dd91cec1a26",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Methods",
+          "type": "Array<FRpcMethodInfo>",
+          "codecs": [
+            "rpc"
+          ]
+        },
+        {
+          "name": "SchemaJson",
+          "type": "bytes",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0xD42A8CD7",
+          "fingerprint": "sha256:2a2c539fd24d8b443f75c1c37977c3bc8fd0d8cffb35f3920e59b206721dae40",
+          "fingerprint_u64": "0x2A2C539FD24D8B44",
+          "prefixes": [
+            "sha256:fd550335c35a454b4428d6a063c3f7e7eee3c84f1095b371d72951770bc4a8d5",
+            "sha256:2a2c539fd24d8b443f75c1c37977c3bc8fd0d8cffb35f3920e59b206721dae40"
+          ],
+          "prefixes_u64": [
+            "0xFD550335C35A454B",
+            "0x2A2C539FD24D8B44"
+          ],
+          "fields": [
+            {
+              "name": "Methods",
+              "type": "Array<FRpcMethodInfo>"
+            },
+            {
+              "name": "SchemaJson",
+              "type": "bytes"
+            }
+          ]
+        }
+      }
+    },
+    "FRpcVoid": {
+      "source": "models/frpc.go",
+      "fingerprint": "sha256:cd48ee6983d59c6f5f7cfd3f3b2ec2a8c4a0f66c30e22bec805204acdb8bc9a3",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [],
+      "messages": {
+        "rpc": {
+          "id": "0xD4A891C4",
+          "fingerprint": "sha256:2b58fe10f955c83386b3b377b64aa08e695dc84d012a391c80da151205c7bac4",
+          "fingerprint_u64": "0x2B58FE10F955C833",
+          "prefixes": [],
+          "prefixes_u64": [],
+          "fields": []
+        }
+      }
+    },
+    "TicksItem": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:36ca22d0e95bb4a3324a552b3aeaa9c4a60d304c51e36d2f7d2a0cc2990c82bf",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Value",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x35BE4510",
+          "fingerprint": "sha256:820ba1c0fdacdcfceb5c0e8181bcf46ce3ef73304d24e2c0e5ec7a0d750dd839",
+          "fingerprint_u64": "0x820BA1C0FDACDCFC",
+          "prefixes": [
+            "sha256:820ba1c0fdacdcfceb5c0e8181bcf46ce3ef73304d24e2c0e5ec7a0d750dd839"
+          ],
+          "prefixes_u64": [
+            "0x820BA1C0FDACDCFC"
+          ],
+          "fields": [
+            {
+              "name": "Value",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "TicksRequest": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:bc709a0bdb78d25876f7fb222163086848aed3c3f38378def9787be150128046",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [],
+      "messages": {
+        "rpc": {
+          "id": "0xE96A59D5",
+          "fingerprint": "sha256:68c7b9b2e11a98d3ad0ceb62b021c0d251eecb9c74cd08799521a9d532248578",
+          "fingerprint_u64": "0x68C7B9B2E11A98D3",
+          "prefixes": [],
+          "prefixes_u64": [],
+          "fields": []
+        }
+      }
+    },
+    "UploadChunk": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:42f9f0643664047be2a86d88203716b5ddc2d2715bf6848f02fb5704430cc384",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Size",
+          "type": "u32",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x65DB5549",
+          "fingerprint": "sha256:b28344e68b53bab60d7994e3ceb903891ff99bd245e462d6d5b6cf05be4a5fa1",
+          "fingerprint_u64": "0xB28344E68B53BAB6",
+          "prefixes": [
+            "sha256:b28344e68b53bab60d7994e3ceb903891ff99bd245e462d6d5b6cf05be4a5fa1"
+          ],
+          "prefixes_u64": [
+            "0xB28344E68B53BAB6"
+          ],
+          "fields": [
+            {
+              "name": "Size",
+              "type": "u32"
+            }
+          ]
+        }
+      }
+    },
+    "UploadDone": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:bf23c2244fa9235353ed47171d8bac9f5e9b6443751a5aeff1a8d51b73ee4dee",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Summary",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x0386DCA3",
+          "fingerprint": "sha256:7a9cb5b5480d918afa550b19854ea0910b843dd133dcc9322a7586fa16e79fbe",
+          "fingerprint_u64": "0x7A9CB5B5480D918A",
+          "prefixes": [
+            "sha256:7a9cb5b5480d918afa550b19854ea0910b843dd133dcc9322a7586fa16e79fbe"
+          ],
+          "prefixes_u64": [
+            "0x7A9CB5B5480D918A"
+          ],
+          "fields": [
+            {
+              "name": "Summary",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "UploadOpen": {
+      "source": "models/stream.go",
+      "fingerprint": "sha256:edadf76ec1636ad0503a723d37528d8d3ca9488b99212aedcb0799dfe4bce648",
+      "codecs": [
+        "rpc"
+      ],
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string",
+          "codecs": [
+            "rpc"
+          ]
+        }
+      ],
+      "messages": {
+        "rpc": {
+          "id": "0x315285E4",
+          "fingerprint": "sha256:46a5df3127c6e3848a6f91ff190ba9fdcbf3dd26bf000156ec645879ce863c67",
+          "fingerprint_u64": "0x46A5DF3127C6E384",
+          "prefixes": [
+            "sha256:46a5df3127c6e3848a6f91ff190ba9fdcbf3dd26bf000156ec645879ce863c67"
+          ],
+          "prefixes_u64": [
+            "0x46A5DF3127C6E384"
+          ],
+          "fields": [
+            {
+              "name": "Name",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
