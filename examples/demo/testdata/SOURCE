@@ -1,0 +1,1 @@
+fomoxa-rpc 0.1.0 (crates.io), output of: cargo install fomoxa-rpc --version 0.1.0 --locked --example interop --features net && interop frames

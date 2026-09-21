@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "generator": "fomoxac 0.2.1",
+  "schema_fingerprint": "sha256:b8f0e2543fc9c60d89329c4fa7f31e6f5a0e89600f61f31c1120c5907bfb0b29",
+  "sha256_of": "each file with its `// generated-at:` line emptied, so an unchanged schema keeps an unchanged digest",
+  "sources": {
+    "models/echo.go": {
+      "models": [
+        "CountItem",
+        "CountRequest",
+        "EchoRequest",
+        "EchoResponse"
+      ],
+      "outputs": [
+        {
+          "path": "generated/count_item_rpc.go",
+          "model": "CountItem",
+          "codec": "rpc",
+          "fingerprint": "sha256:a3a551bbfcf90a6c4c485d1dc4aed65525dc983eb0e1013fad1b71b69fa68996",
+          "sha256": "99472bc6897be955110b1d106e57bc60e3c488c324f6eb39925b5fb62f3d2033"
+        },
+        {
+          "path": "generated/count_request_rpc.go",
+          "model": "CountRequest",
+          "codec": "rpc",
+          "fingerprint": "sha256:12d24dcf758a97691a2e0bfce184b8dc0ef21a8e17a61878efb345ffaefdc671",
+          "sha256": "442702d1310e9f013cc8b46104b3ffe1c465bca78e6e25ffb3748e30c6e82dcc"
+        },
+        {
+          "path": "generated/echo_request_rpc.go",
+          "model": "EchoRequest",
+          "codec": "rpc",
+          "fingerprint": "sha256:d477f0362150cb3d54936df622045344bffd326620133145fe322aa183b05e15",
+          "sha256": "6d72c005c3a5c3b73cd94f9ddf2256a4cdbbb245e30bb032179b2367c679fd59"
+        },
+        {
+          "path": "generated/echo_response_rpc.go",
+          "model": "EchoResponse",
+          "codec": "rpc",
+          "fingerprint": "sha256:23368e8a5e0fca18ae512e3211b9d07a72688126005acf37265ad37b659f65c6",
+          "sha256": "78378c532150873590230d0c3297c9d10b2c291d54bdb8b855b50226cb205583"
+        }
+      ]
+    },
+    "models/frpc.go": {
+      "models": [
+        "FRpcCredit",
+        "FRpcCtx",
+        "FRpcError",
+        "FRpcMethodInfo",
+        "FRpcReflectRequest",
+        "FRpcReflectResponse",
+        "FRpcVoid"
+      ],
+      "outputs": [
+        {
+          "path": "generated/frpc_credit_rpc.go",
+          "model": "FRpcCredit",
+          "codec": "rpc",
+          "fingerprint": "sha256:9f3d9aee476f42bdd8ea725b429837c5ebb3a5436604550c2a925ac1cfeb85f4",
+          "sha256": "f401eee504ab3ec915259c93ef33814b772e29f0e2e5444a2ed0dba51a707531"
+        },
+        {
+          "path": "generated/frpc_ctx_rpc.go",
+          "model": "FRpcCtx",
+          "codec": "rpc",
+          "fingerprint": "sha256:3b43f47205e0362dd2beda675e13a4f52cb4f67e036b6998517c698c4f9079c0",
+          "sha256": "ce6eb77ff276140b3b32bff54de2f75132d9b05b20a69c236dd3d3066fd9c656"
+        },
+        {
+          "path": "generated/frpc_error_rpc.go",
+          "model": "FRpcError",
+          "codec": "rpc",
+          "fingerprint": "sha256:4a043b62fdc0e07d53f42ccb409dc3546203f648269e7c4ec534f4475e3ddd7a",
+          "sha256": "28c1036f92d343dcf405abfc6fb80625f656bbef700c8e915464cd023945b74c"
+        },
+        {
+          "path": "generated/frpc_method_info_rpc.go",
+          "model": "FRpcMethodInfo",
+          "codec": "rpc",
+          "fingerprint": "sha256:f0b7d74b8a72541b467a8909410f30874ade5e124cdee6f82d717211486fc2a7",
+          "sha256": "75ea9486d4ca2436040c91e1fc23968bf143710135c7f1c78e761d80520fb2f7"
+        },
+        {
+          "path": "generated/frpc_reflect_request_rpc.go",
+          "model": "FRpcReflectRequest",
+          "codec": "rpc",
+          "fingerprint": "sha256:aaab56b8165c245bb6a314205af049d2bafa54983caf25caa8f0c7b8ccff8f71",
+          "sha256": "1fa2927165e11dcac9092780500b0c28ae97f66ac30cc2993048d0a50af84545"
+        },
+        {
+          "path": "generated/frpc_reflect_response_rpc.go",
+          "model": "FRpcReflectResponse",
+          "codec": "rpc",
+          "fingerprint": "sha256:2a2c539fd24d8b443f75c1c37977c3bc8fd0d8cffb35f3920e59b206721dae40",
+          "sha256": "b8c8b0bc30e5886c936e3a9244df92b4cf7000b86b23ff8c72c0c2ec8f612b37"
+        },
+        {
+          "path": "generated/frpc_void_rpc.go",
+          "model": "FRpcVoid",
+          "codec": "rpc",
+          "fingerprint": "sha256:2b58fe10f955c83386b3b377b64aa08e695dc84d012a391c80da151205c7bac4",
+          "sha256": "739b2d81f1941ab2739503309d6a5a1a09c1477d2b152d044c6ca8105cd98d78"
+        }
+      ]
+    },
+    "models/stream.go": {
+      "models": [
+        "ChatHeard",
+        "ChatOpen",
+        "ChatSaid",
+        "TicksItem",
+        "TicksRequest",
+        "UploadChunk",
+        "UploadDone",
+        "UploadOpen"
+      ],
+      "outputs": [
+        {
+          "path": "generated/chat_heard_rpc.go",
+          "model": "ChatHeard",
+          "codec": "rpc",
+          "fingerprint": "sha256:e7f7ca08d16b1a00f808b415932c7b9f4d78b4edb971b9d588b41da9df5324ca",
+          "sha256": "0ed34af2885ea029e21e4aeddceccb05bef475ec65af2249a2c022c7b7651f05"
+        },
+        {
+          "path": "generated/chat_open_rpc.go",
+          "model": "ChatOpen",
+          "codec": "rpc",
+          "fingerprint": "sha256:3d4af6b9c83e293bda2e98baab650b19b9e40a3fedb38dd5e75f0153e7c8acae",
+          "sha256": "b5cf68bed13e41de59b5b4a10012b11fab00d049ac3b547a6d646a70ec5bf457"
+        },
+        {
+          "path": "generated/chat_said_rpc.go",
+          "model": "ChatSaid",
+          "codec": "rpc",
+          "fingerprint": "sha256:e1399a587a239b43b32cfd6aa5bd437754c290903c3a670e7cef70aaa63383f9",
+          "sha256": "16e8c406acaedb11fd57424ea7490b5afd80ecef1eb616be250616e57298a3e5"
+        },
+        {
+          "path": "generated/ticks_item_rpc.go",
+          "model": "TicksItem",
+          "codec": "rpc",
+          "fingerprint": "sha256:820ba1c0fdacdcfceb5c0e8181bcf46ce3ef73304d24e2c0e5ec7a0d750dd839",
+          "sha256": "35196d78874643db1ae8a121a2a868bc61b0930c894d373954e6d312af213ac6"
+        },
+        {
+          "path": "generated/ticks_request_rpc.go",
+          "model": "TicksRequest",
+          "codec": "rpc",
+          "fingerprint": "sha256:68c7b9b2e11a98d3ad0ceb62b021c0d251eecb9c74cd08799521a9d532248578",
+          "sha256": "90e174c7d1f407c572b3d9d6f74ad41fae7576c6cebf5f196db13f893525275b"
+        },
+        {
+          "path": "generated/upload_chunk_rpc.go",
+          "model": "UploadChunk",
+          "codec": "rpc",
+          "fingerprint": "sha256:b28344e68b53bab60d7994e3ceb903891ff99bd245e462d6d5b6cf05be4a5fa1",
+          "sha256": "263f77ee35e72f9095d92c69865e81f2b40759affe1fdb3a107a364ebf5e62d7"
+        },
+        {
+          "path": "generated/upload_done_rpc.go",
+          "model": "UploadDone",
+          "codec": "rpc",
+          "fingerprint": "sha256:7a9cb5b5480d918afa550b19854ea0910b843dd133dcc9322a7586fa16e79fbe",
+          "sha256": "e09321b48f5e92b0430e4aa98fc06086cd30f676578e16b9b85cef8ef5f1ade7"
+        },
+        {
+          "path": "generated/upload_open_rpc.go",
+          "model": "UploadOpen",
+          "codec": "rpc",
+          "fingerprint": "sha256:46a5df3127c6e3848a6f91ff190ba9fdcbf3dd26bf000156ec645879ce863c67",
+          "sha256": "6c9ba2c512af221bc6c82f8df7e6f1a0d4d975629d0c6c3c6a0cf84c497795fc"
+        }
+      ]
+    }
+  },
+  "shared": [
+    {
+      "path": "generated/runtime.go",
+      "kind": "runtime",
+      "sha256": "362a525ad5b9feba73e86547516ed256c77ffd5aab2bb48d1cef742d774dff65"
+    },
+    {
+      "path": "generated/handshake.go",
+      "kind": "handshake",
+      "sha256": "75249ec7d4a6a132ea2d2573d57f032242449242eeda3314365e18f48323fb12"
+    }
+  ]
+}
